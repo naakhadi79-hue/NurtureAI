@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Symptom Checker | NurtureAI</title>
+
+<link rel="stylesheet" href="src/style.css">
+</head>
+
+<body>
+
+<header>
+
+<nav class="navbar">
+
+<h2 class="logo">NurtureAI</h2>
+
+<ul class="nav-links">
+
+<li><a href="index.html">Home</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="features.html">Features</a></li>
+<li><a href="chatbot.html">Chatbot</a></li>
+<li><a href="symptom-checker.html">Symptoms</a></li>
+<li><a href="contact.html">Contact</a></li>
+
+</ul>
+
+</nav>
+
+</header>
+
+<section class="checker">
+
+<h1>🩺 Symptom Checker</h1>
+
+<p>Select your symptoms below.</p>
+
+<form>
+
+<label>
+<input type="checkbox" id="fever">
+ Fever
+</label>
+
+<label>
+<input type="checkbox" id="headache">
+ Headache
+</label>
+
+<label>
+<input type="checkbox" id="bleeding">
+ Bleeding
+</label>
+
+<label>
+<input type="checkbox" id="swelling">
+ Swollen Feet
+</label>
+
+<label>
+<input type="checkbox" id="vomiting">
+ Vomiting
+</label>
+
+<br><br>
+
+<button type="button" onclick="checkSymptoms()">
+Check Symptoms
+</button>
+
+</form>
+
+<h3 id="result"></h3>
+
+</section>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
