@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NurtureAI | Symptom Checker</title>
+    <link rel="stylesheet" href="../src/style.css">
+</head>
+<body>
+
+<header>
+    <nav class="navbar">
+        <h2 class="logo">NurtureAI</h2>
+
+        <ul class="nav-links">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="features.html">Features</a></li>
+            <li><a href="chatbot.html">Chatbot</a></li>
+            <li><a href="symptom-checker.html" class="active">Symptom Checker</a></li>
+            <li><a href="resources.html">Resources</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="signup.html">Sign Up</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="symptom-hero">
+    <div class="hero-text">
+        <h1>AI-Powered Symptom Checker</h1>
+        <p>Understand possible health concerns for mothers, newborns, and children using intelligent AI guidance. Get recommendations and know when to seek medical care.</p>
+        <a href="#checker" class="btn">Start Checking Symptoms</a>
+    </div>
+
+    <div class="hero-image">
+        <img src="../images/OmkZ0EW5QhmMyXyapbUb2g.webp" alt="AI healthcare illustration">
+    </div>
+</section>
+
+<section class="checker" id="checker">
+    <h2>Tell Us About Your Symptoms</h2>
+    <p>Select your information below for an AI health assessment.</p>
+
+    <div class="checker-box">
+        <label>User Type</label>
+        <div class="user-options">
+            <button>Mother</button>
+            <button>Newborn</button>
+            <button>Child</button>
+            <button>Healthcare Worker</button>
+        </div>
+
+        <label>Age</label>
+        <input type="number" placeholder="Enter age">
+
+        <label>Gender</label>
+        <select>
+            <option>Select Gender</option>
+            <option>Male</option>
+            <option>Female</option>
+        </select>
+
+        <label>Select Symptoms</label>
+        <div class="symptoms">
+            <label><input type="checkbox"> Fever</label>
+            <label><input type="checkbox"> Cough</label>
+            <label><input type="checkbox"> Difficulty Breathing</label>
+            <label><input type="checkbox"> Vomiting</label>
+            <label><input type="checkbox"> Diarrhea</label>
+            <label><input type="checkbox"> Skin Rash</label>
+        </div>
+
+        <label>Severity Level</label>
+        <div class="severity">
+            <label><input type="radio" name="level"> Mild</label>
+            <label><input type="radio" name="level"> Moderate</label>
+            <label><input type="radio" name="level"> Severe</label>
+        </div>
+
+        <textarea placeholder="Describe any other symptoms or concerns..."></textarea>
+        <button class="check-btn">Check Symptoms</button>
+    </div>
+</section>
+
+<section class="results">
+    <h2>AI Assessment Results</h2>
+
+    <div class="result-card">
+        <h3>Possible Concerns</h3>
+        <p>Your symptoms will be analyzed by AI to provide possible health guidance and recommendations.</p>
+    </div>
+
+    <div class="warning">
+        <h3>⚠ Emergency Warning</h3>
+        <p>Seek immediate medical attention if there is difficulty breathing, severe dehydration, persistent high fever, or loss of consciousness.</p>
+    </div>
+</section>
+
+<section class="facilities">
+    <h2>Find Healthcare Support</h2>
+
+    <div class="facility-card">
+        <h3>Nearby Health Facilities</h3>
+        <p>Locate hospitals and healthcare professionals near you.</p>
+        <button>Get Directions</button>
+    </div>
+</section>
+
+<footer>
+    <h3>NurtureAI</h3>
+    <p>AI-powered healthcare support for mothers and children.</p>
+    <p>© 2026 NurtureAI. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>

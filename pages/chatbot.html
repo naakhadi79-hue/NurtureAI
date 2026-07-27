@@ -1,60 +1,151 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>NurtureAI Chatbot</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Chatbot | NurtureAI</title>
 
-<link rel="stylesheet" href="src/style.css">
+    <link rel="stylesheet" href="../src/style.css">
+
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
 
 <body>
 
 <header>
-<nav class="navbar">
-<h2 class="logo">NurtureAI</h2>
+    <nav class="navbar">
+        <div class="logo">NurtureAI</div>
 
-<ul class="nav-links">
-<li><a href="index.html">Home</a></li>
-<li><a href="about.html">About</a></li>
-<li><a href="features.html">Features</a></li>
-<li><a href="chatbot.html">Chatbot</a></li>
-<li><a href="contact.html">Contact</a></li>
-</ul>
-
-</nav>
+        <ul class="nav-links">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="features.html">Features</a></li>
+            <li><a href="chatbot.html" class="active">Chatbot</a></li>
+            <li><a href="symptom-checker.html">Symptom Checker</a></li>
+            <li><a href="resources.html">Resources</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="signup.html" class="signup-btn">Sign Up</a></li>
+        </ul>
+    </nav>
 </header>
 
-<section class="chat-container">
-    <img src="images/WhatsApp Image 2026-07-20 at 11.51.11 AM (1).jpeg"
+<section class="page-hero">
+    <h1>AI Health Chatbot</h1>
+    <p>Your trusted AI assistant for maternal and child healthcare.</p>
+</section>
 
-<h1>🤖 AI Health Assistant</h1>
+<section class="chatbot-section">
 
-<div id="chatbox">
+    <div class="chat-container">
 
-<p class="bot">
-Hello! I am NurtureAI.
-How can I help you today?
-</p>
+        <div class="chat-header">
+            <i class="fas fa-robot"></i>
+            <h2>NurtureAI Assistant</h2>
+        </div>
 
-</div>
+        <div class="chat-box">
 
-<div class="input-area">
+            <div class="bot-message">
+                👋 Hello! Welcome to NurtureAI. How can I help you today?
+            </div>
 
-<input
-type="text"
-id="userInput"
-placeholder="Type your question...">
+            <div class="user-message">
+                What foods should I eat during pregnancy?
+            </div>
 
-<button onclick="sendMessage()">
-Send
-</button>
+            <div class="bot-message">
+                A balanced diet with fruits, vegetables, whole grains, lean proteins, and plenty of water is recommended. Please consult your healthcare provider for personalized advice.
+            </div>
+
+        </div>
+
+        <div class="chat-input">
+
+            <input type="text" placeholder="Type your health question...">
+
+            <button>
+                <i class="fas fa-paper-plane"></i>
+            </button>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section class="quick-questions">
+
+<h2>Popular Questions</h2>
+
+<div class="question-grid">
+
+<button>🤰 Pregnancy Tips</button>
+
+<button>👶 Baby Care</button>
+
+<button>💉 Vaccination Schedule</button>
+
+<button>🥗 Nutrition Advice</button>
+
+<button>🩺 Child Growth</button>
+
+<button>🚑 Emergency Signs</button>
 
 </div>
 
 </section>
 
-<script src="js/script.js"></script>
+<section class="chat-services">
+
+<h2>What Our AI Can Help With</h2>
+
+<div class="service-grid">
+
+<div class="service-card">
+<i class="fas fa-baby"></i>
+<h3>Pregnancy Care</h3>
+<p>Support throughout every stage of pregnancy.</p>
+</div>
+
+<div class="service-card">
+<i class="fas fa-child"></i>
+<h3>Newborn Care</h3>
+<p>Learn how to care for your baby safely.</p>
+</div>
+
+<div class="service-card">
+<i class="fas fa-heartbeat"></i>
+<h3>Health Guidance</h3>
+<p>Receive trusted health recommendations.</p>
+</div>
+
+</div>
+
+</section>
+
+<section class="disclaimer">
+
+<h2>Important Notice</h2>
+
+<p>
+NurtureAI provides educational information only and does not replace
+professional medical advice. In an emergency, please visit the nearest
+healthcare facility immediately.
+</p>
+
+</section>
+
+<footer>
+
+<h3>NurtureAI</h3>
+
+<p>Empowering healthier mothers and children through Artificial Intelligence.</p>
+
+<p>&copy; 2026 NurtureAI. All Rights Reserved.</p>
+
+</footer>
 
 </body>
 </html>
